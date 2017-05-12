@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:CurrentLocationXamarin"
+             x:Class="CurrentLocationXamarin.MainPage">
+
+    <StackLayout VerticalOptions="Start">
+        <Button x:Name="ButtonGPS" Text="GetGPS" Clicked="CurrentLocation_Button_Clicked" />
+        <Label x:Name="labelGPS" Text="GPS goes here"/>
+    </StackLayout>
+</ContentPage>
